@@ -9,17 +9,17 @@ class Dog{
 }
 
 class Cat{
-	public $gender
-	public $breed
-	public $name
-	public $age
+	public $gender;
+	public $breed;
+	public $name;
+	public $age;
 }
 
 class Bird{
-	public $gender
-	public $breed
-	public $name
-	public $age
+	public $gender;
+	public $breed;
+	public $name;
+	public $age;
 }
 
 $dog1 = new Dog();
@@ -43,15 +43,15 @@ class Dog{
 class Cat{
 	public $gender = "female";
 	public $breed = "best breed";
-	public $name = "circle"
-	public $lastname = "goldson"
+	public $name = "circle";
+	public $lastname = "goldson";
 
 }
 class Bird{
 	public $gender = "male";
 	public $breed = "crow";
 	public $name = "superfly";
-	public $lastname = "goldson"
+	public $lastname = "goldson";
 }
 $dog1 = new Dog();
 

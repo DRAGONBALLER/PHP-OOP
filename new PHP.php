@@ -1,10 +1,10 @@
 <?php
 class Dog{
- public $gender
- public $breed
- public $age
+ public $gender;
+ public $breed;
+ public $age;
 
- public function__construct($gender,$breed,$age){
+ public function __construct($gender,$breed,$age){
  	$this->gender = $gender;
  	$this->breed = $breed;
  	$this->age = $age;
